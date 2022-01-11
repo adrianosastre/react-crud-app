@@ -1,0 +1,12 @@
+.main {
+    margin: 0.5rem;
+}
+
+.footer {
+    padding: 0.5rem;
+    background-color: lightgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

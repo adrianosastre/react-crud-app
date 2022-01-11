@@ -1,0 +1,10 @@
+h2.pageTitle {
+}
+
+h2.pageTitle span {
+    margin-left: 0.2rem;
+    color: #666;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    vertical-align: super;
+}

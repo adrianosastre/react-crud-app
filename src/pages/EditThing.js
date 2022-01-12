@@ -26,6 +26,7 @@ const EditThing = (props) => {
             },
         }).then((res) => {
             console.log('PUT response:', res);
+            thing.id = id;
             navigate('/thing', { state: thing });
         });
     }

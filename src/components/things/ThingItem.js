@@ -13,10 +13,8 @@ const ThingItem = (props) => {
                 <Card>
                     <img src={t.image} alt={t.title} />
                     <div className={classes.content}>
-                        <p>
-                            {t.title}
-                            <span>{t.subtitle}</span>
-                        </p>
+                        <p className={classes.title}>{t.title}</p>
+                        <p className={classes.subtitle}>{t.subtitle}</p>
                     </div>
                 </Card>
             </Link>

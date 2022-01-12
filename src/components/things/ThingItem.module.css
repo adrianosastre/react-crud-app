@@ -1,25 +1,28 @@
 .item {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+    text-align: center;
 }
 
 img {
-  height: 10rem;
-  border-radius: 3px;
+    height: 10rem;
+    border-radius: 3px;
 }
 
 .content {
-  text-align: center;
+    text-align: center;
 }
 
-.content p {
-  color: #2c292b;
-  font-weight: bold;
+p.title {
+    color: #2c292b;
+    font-weight: bold;
 }
-.content p span {
-  margin-left: 0.2rem;
-  color: #666;
-  font-size: 0.8rem;
-  font-weight: lighter;
-  vertical-align: super;
+p.subtitle {
+    margin-left: 0.2rem;
+    color: #666;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.item a {
+    text-decoration: none;
 }

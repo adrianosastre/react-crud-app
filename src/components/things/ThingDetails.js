@@ -24,7 +24,7 @@ const ThingDetails = (props) => {
             },
         }).then((res) => {
             console.log('DELETE response:', res);
-            navigate('/');
+            navigate('/list-things');
         });
     }
 
